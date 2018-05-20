@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   pigeons = {}
-  data.each do |key, value| #key is a :color etc,
+  data.each do |key, value|
     value.each do |data, names|
       names.each do |name|
           pigeons[name] ||= {}
